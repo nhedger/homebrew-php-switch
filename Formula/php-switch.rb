@@ -10,11 +10,12 @@ class PhpSwitch < Formula
     bin.install "php-switch.sh" => "php-switch"
   end
 
-  def caveats; <<-CAVEATS
+  def caveats
+    <<-CAVEATS
     Please add the following line to your ~/.zshrc file to initialize php-switch:
 
       source php-switch
 
-  CAVEATS
+    CAVEATS
   end
 end
