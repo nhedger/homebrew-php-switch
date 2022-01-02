@@ -6,7 +6,6 @@ class PhpSwitch < Formula
   head "https://github.com/nhedger/php-switch.git", branch: "main"
 
   def install
-    bin.install "php-switch-init.sh" => "php-switch-init"
     bin.install "php-switch.sh" => "php-switch"
   end
 
