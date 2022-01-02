@@ -8,5 +8,5 @@ Or `brew tap nhedger/php-switch` and then `brew install php-switch`.
 
 ## Documentation
 
-`brew help`, `man brew` or check
-[Homebrew's documentation](https://docs.brew.sh).
+The documentation for `php-switch` is available
+[here](https://github.com/nhedger/php-switch).
